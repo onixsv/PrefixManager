@@ -1,0 +1,25 @@
+name: PrefixManager
+author: alvin0319
+main: PrefixManager\Loader
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  칭호:
+    description: 칭호 명령어입니다.
+    permission: prefix.command
+  칭호관리:
+    description: 칭호 관리 명령어입니다.
+    permission: prefix.manage
+  칭호상점:
+    description: 칭호상점 명령어입니다,
+    permission: prefix.shop
+
+
+permissions:
+  prefix.command:
+    default: true
+  prefix.manage:
+    default: op
+  prefix.shop:
+    default: op
